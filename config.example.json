@@ -1,0 +1,42 @@
+{
+  "drive_settings": {
+    "folder_id": "YOUR_GOOGLE_DRIVE_FOLDER_ID_HERE",
+    "folder_name": "Your Folder Name",
+    "credentials_file": "credentials.json"
+  },
+  "local_settings": {
+    "download_directory": "data",
+    "logs_directory": "logs",
+    "state_directory": "state",
+    "temp_directory": "temp"
+  },
+  "sync_settings": {
+    "chunk_size_mb": 1,
+    "page_size": 25,
+    "timeout_seconds": 600,
+    "max_retries_per_file": 999,
+    "retry_delay_base": 5,
+    "max_retry_delay": 300,
+    "verification_enabled": true,
+    "incremental_sync_enabled": true
+  },
+  "scheduler_settings": {
+    "daily_sync_enabled": true,
+    "sync_time": "02:00",
+    "max_runtime_hours": 12,
+    "notification_enabled": true
+  },
+  "logging_settings": {
+    "log_level": "INFO",
+    "max_log_files": 30,
+    "detailed_progress": true,
+    "console_output": true
+  },
+  "advanced_settings": {
+    "parallel_downloads": true,
+    "bandwidth_limit_mbps": 0,
+    "exclude_file_types": [],
+    "include_google_docs": true,
+    "checksum_verification": true
+  }
+}

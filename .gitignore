@@ -1,0 +1,85 @@
+# Configuration and Credentials (SENSITIVE - DO NOT COMMIT)
+config.json
+credentials.json
+.env
+.env.local
+.env.*.local
+
+# Data Folders
+data/
+logs/
+state/
+temp/
+
+# Python and Development
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+.c9/
+.history/
+
+# Windows Specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Local IDE Settings
+.claude/settings.local.json
+
+# Pickled Files (contain session data)
+*.pickle
+
+# Temporary Files
+*.tmp
+*.bak
+*.backup
+*.cache
+
+# OS Generated Files
+.AppleDouble
+.LSOverride
+._*
+
+# Keep Example Files (for documentation)
+!credentials.example.json
+!config.example.json
+!README.md
+
+# Allow batch/script files (for automation)
+!*.bat
+!*.ps1
