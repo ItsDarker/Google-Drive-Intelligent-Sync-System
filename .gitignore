@@ -58,9 +58,6 @@ Desktop.ini
 $RECYCLE.BIN/
 *.lnk
 
-# Local IDE Settings
-.claude/settings.local.json
-
 # Pickled Files (contain session data)
 *.pickle
 

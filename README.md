@@ -630,7 +630,6 @@ This will verify:
 
 ```
 Drive-Sync-update/
-├── .gitignore                         # Git ignore rules (sensitive files excluded)
 ├── README.md                          # This file - Complete documentation
 ├── config.json                        # Configuration settings (GITIGNORED - do not commit)
 ├── config.example.json                # Template config file (SAFE to commit - no credentials)
